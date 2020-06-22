@@ -1,0 +1,34 @@
+<section id="features" class="block block-feature-2">
+  <div class="container">
+    <div class="columns">
+      <div class="column media">
+          <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}">
+      </div>
+      <div class="column text">
+          <h2><span class="light">{{ section.headline }}</span></h2>
+          <p>{{ section.content }}</p>
+
+          <style>
+            .list-class {
+              color: black;
+              margin-top: 1rem;
+              font-weight: bold;
+              list-style-type: none;
+            }
+          </style>
+
+          <ul style="padding: 1rem;">
+            <li class="list-class">
+              <i class="fa fa-video-camera" aria-hidden="true"></i> Real time video chat.
+            </li>
+            <li class="list-class">
+              <i class="fa fa-pencil" aria-hidden="true"></i> A suite of collaboration tools to enable digital teaching and learning.
+            </li>
+            <li class="list-class">
+              <i class="fa fa-credit-card-alt" aria-hidden="true"></i> Fin-tech like digital transfers of earnings, users can send and redeem funds as it suits them.
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</section>

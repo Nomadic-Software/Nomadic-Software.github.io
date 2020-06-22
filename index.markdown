@@ -14,14 +14,14 @@ page_sections:
     image: "/uploads/clay-render.png"
     alt_text: Product Shot
 - template: content-feature
-  block: feature-1
+  block: project-feature-1
   media_alignment: Left
-  headline: <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
-    class="light">the Blocks to create sites quickly</span>
-  content: Quickly assemble and create custom sites with 16 design blocks for seven
-    different sections.
+  headline: <span
+    class="light">Building face to face tutoring for everyone with</span>
+    <strong>The Peer Tutor</strong>
+  content: Designed and built the digital platform for The Peer Tutor, an online learning startup looking to enable peer to peer learning amongst the tech literate 'gen-z' demographic.
   media:
-    image: "https://forestryio.github.io/ubuild-jekyll/uploads/2018/06/21/blocks-split.png"
+    image: "/uploads/peer-tutor-screen.png"
     alt_text: uBuild Blocks Mock-Up
 - template: content-feature
   block: feature-1
