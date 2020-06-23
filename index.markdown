@@ -4,7 +4,7 @@
 
 layout: blocks
 title: Homepage
-date: 2017-11-22T23:00:00.000+00:00
+date: 2020-06-22T23:00:00.000+00:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-3
@@ -22,7 +22,14 @@ page_sections:
   content: Designed and built the digital platform for The Peer Tutor, an online learning startup looking to enable peer to peer learning amongst the tech literate 'gen-z' demographic.
   media:
     image: "/uploads/peer-tutor-screen.png"
-    alt_text: uBuild Blocks Mock-Up
+    image2: "/uploads/peer-tutor-wallet-2.png"
+    alt_text: The Peer Tutor
+  list:
+    title: "Tech Implemented:"
+    items:
+      - Real time video chat.
+      - A suite of collaboration tools to enable digital teaching and learning.
+      - Fin-tech like digital transfers of earnings, users can send and redeem funds as it suits them.
 - template: content-feature
   block: feature-1
   media_alignment: Right

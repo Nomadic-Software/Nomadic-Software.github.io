@@ -17,8 +17,12 @@
         font-family: 'Work Sans', sans-serif;
       }
 
-      h1, h2, h3 {
+      h1, h2 {
         font-family: 'Raleway', sans-serif;
+      }
+
+      h3 {
+        font-size: 1.3rem;
       }
 
       .text-black {
@@ -35,6 +39,42 @@
 
       .block-hero-2 .column.text p {
         color: black;
+      }
+
+      .block-project-feature {
+        padding-left: 1.2rem;
+      }
+
+      .block-project-feature .container {
+        border-left: 2px solid #33daec;
+        padding-left: 0.8rem;
+        padding-bottom: 1.2rem;
+      }
+
+      .block-project-feature li {
+        margin-top: 1rem;
+        list-style-type: none;
+      }
+      .block-project-feature li:before {
+        content: '\2022';
+        font-size: x-large;
+        color: #22b4eb;
+      }
+      .block-project-feature .column.list{
+        order: 4;
+      }
+      @media screen and (min-width: 700px) {
+        .block-project-feature .column.list{
+          flex: 0 0 50%;
+        }
+
+        .block-project-feature .container {
+          padding: 2rem;
+        }
+
+        .block-project-feature {
+          padding-left: 2rem;
+        }
       }
     </style>
   </head>
