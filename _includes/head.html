@@ -8,6 +8,16 @@
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{{ site.description }}">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170526899-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-170526899-1');
+    </script>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/forestryio/ubuild-blocks@1.0.0/dist/css/ubuild.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap" rel="stylesheet">
@@ -41,6 +51,15 @@
         color: black;
       }
 
+      .block-heading h1 {
+        color: #151515;
+        font-size: 3rem;
+      }
+
+      .block-heading {
+        padding-bottom: 0;
+      }
+
       .block-project-feature {
         padding-left: 1.2rem;
       }
@@ -48,7 +67,7 @@
       .block-project-feature .container {
         border-left: 2px solid #33daec;
         padding-left: 0.8rem;
-        padding-bottom: 1.2rem;
+        padding-bottom: 1.5rem;
       }
 
       .block-project-feature li {
@@ -63,6 +82,25 @@
       .block-project-feature .column.list{
         order: 4;
       }
+
+      .block-contact .column.text{
+        margin: auto;
+      }
+
+      .get-in-touch {
+        display: inline-block;
+        margin: 2rem;
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-decoration: none;
+      }
+
+      .block-footer-2 .column{
+        text-align: center;
+        flex: unset;
+        width: 100%;
+      }
+
       @media screen and (min-width: 700px) {
         .block-project-feature .column.list{
           flex: 0 0 50%;
@@ -74,6 +112,10 @@
 
         .block-project-feature {
           padding-left: 2rem;
+        }
+
+        .block-contact .column.text{
+          width: 60%;
         }
       }
     </style>
