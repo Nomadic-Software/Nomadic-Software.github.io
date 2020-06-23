@@ -3,7 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: blocks
-title: Homepage
 date: 2020-06-22T23:00:00.000+00:00
 page_sections:
 - template: hero-banner-w-image
